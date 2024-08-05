@@ -27,7 +27,7 @@ inputBox.addEventListener("change", (e) => {
     e.preventDefault();
     inputBox.value = (e.target.value)
 
-    const username = inputBox.value;
+    let username = inputBox.value;
 
     searchBtn.onclick = async () => {
         const user = await fetchUser(username);
@@ -50,10 +50,8 @@ inputBox.addEventListener("change", (e) => {
 
         twitter.onclick = () => window.location.href('https:://x.com/' + user.twitter_username)
         inputBox.value = "";
-        username = null;
 
     }
-    username = "";
     inputBox.value = "";
 
 });

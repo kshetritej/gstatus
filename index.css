@@ -51,10 +51,7 @@ nav{
     background-color: rgb(83, 237, 83);
     padding: 4px 8px;
     font-weight: medium;
-    position: absolute;
     border-radius: 8px;
-    top: 16%;
-    right: 42%;
 }
 #image-container{
 
