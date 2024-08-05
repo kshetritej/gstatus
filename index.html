@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git status</title>
+    <link rel="shortcut icon" href="git_status.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="fav">
+        <img src="./git_status.png" alt="logo">
+      </div>
+      <nav>
+          <input required id="input-box" type="text" />
+          <button id="search-btn">Search</button>
+      </nav>
+
+      <div id ="hire"></div>
+      <div id="image-container">
+        <img id="image-Elem" src="" alt="" />
+      </div>
+
+      <section class="stats">
+        <section>
+          <h2 id="user-login"></h2>
+          <p id="bio"></p>
+          <p id="addr"></p>
+        </section>
+
+        <section class="stats-grid">
+          <div class="box followers">
+            <p><b>Followers</b></p>
+            <p id="followers">0</p>
+          </div>
+
+          <div class="box">
+            <p><b>Following</b></p>
+            <p id="following">0</p>
+          </div>
+
+          <div class="box repos">
+            <p><b>Repos count</b></p>
+            <p id="repos">0</p>
+          </div>
+
+          <div class="box">
+            <p><b>Gists Count</b></p>
+            <p id="gists">0</p>
+          </div>
+        </section>
+
+        <section>
+          <p id="twitter-username"></p>
+        </section>
+      </section>
+    </div>
+  </body>
+  <script defer src="index.js"></script>
+</html>

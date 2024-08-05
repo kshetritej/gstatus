@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
+*{
+    font-family: 'Poppins';
+}
+body{
+    background: wheat;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+#input-box{
+   padding: 4px; 
+}
+#input-box:focus{
+    outline-width: 0;
+    color: darkslategray;
+}
+.container{
+    color: white;
+    width: 420px;
+    padding: 16px;
+    height: 100%;
+    margin: auto;
+    background-color: darkslategrey;
+    border-radius: 12px;
+}
+
+nav{
+    width: 420px;
+    color: white;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+#search-btn, #twitter-username{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: relative;
+}
+
+#hire{
+    background-color: rgb(83, 237, 83);
+    padding: 4px 8px;
+    font-weight: medium;
+    position: absolute;
+    border-radius: 8px;
+    top: 16%;
+    right: 42%;
+}
+#image-container{
+
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: gainsboro;
+    border: 4px dotted greenyellow;
+}
+#bio, #addr, #user-login{
+    text-align: center;
+}
+.stats{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stats-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.box{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
