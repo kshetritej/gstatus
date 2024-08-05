@@ -48,7 +48,9 @@ inputBox.addEventListener("change", (e) => {
             hireStats.innerHTML = "Chilling"
         }
 
-        twitter.onclick = () => window.location.href('https:://x.com/' + user.twitter_username)
+        twitter.addEventListener('click', () => {
+            window.location.href = 'https://x.com/' + user.twitter_username
+        })
         inputBox.value = "";
 
     }

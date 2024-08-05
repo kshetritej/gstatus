@@ -4,6 +4,10 @@
 }
 body{
     background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .fav{
     display: flex;
@@ -22,7 +26,6 @@ body{
     color: white;
     width: 420px;
     padding: 16px;
-    height: 100%;
     margin: auto;
     background-color: darkslategrey;
     border-radius: 12px;
@@ -45,6 +48,12 @@ nav{
     border-radius: 4px;
     padding: 4px 8px;
     position: relative;
+}
+#twitter-username{
+    cursor: pointer;
+}
+#twitter-username:hover{
+    opacity:0.9;
 }
 
 #hire{
